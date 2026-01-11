@@ -1,5 +1,5 @@
 {
-	"name": "@omny/eslint",
+	"name": "@omnygroup/eslint",
 	"version": "1.0.0",
 	"description": "Shared ESLint configuration for Omny projects with TypeScript, SonarJS, and Prettier support",
 	"type": "module",
