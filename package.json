@@ -41,10 +41,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/omny/eslint.git"
+		"url": "git+https://github.com/omnygroup/eslint.git"
 	},
 	"bugs": {
-		"url": "https://github.com/omny/eslint/issues"
+		"url": "https://github.com/omnygroup/eslint/issues"
 	},
 	"publishConfig": {
 		"access": "public"
