@@ -14,7 +14,7 @@
 		"./all": "./all.js"
 	},
 	"engines": {
-		"node": ">=18.0.0"
+		"node": ">=24.10.0"
 	},
 	"keywords": [
 		"eslint",
