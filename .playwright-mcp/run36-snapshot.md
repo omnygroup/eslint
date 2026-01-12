@@ -1,0 +1,267 @@
+### Page state
+- Page URL: https://github.com/omnygroup/eslint/actions/runs/20919032790/job/60099646356
+- Page Title: feat: initial release · omnygroup/eslint@09f19fc
+- Page Snapshot:
+```yaml
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Open global navigation menu" [ref=e12] [cursor=pointer]:
+            - img [ref=e15]
+          - link "Homepage" [ref=e17] [cursor=pointer]:
+            - /url: https://github.com/
+            - img [ref=e18]
+          - navigation "GitHub Breadcrumb" [ref=e22]:
+            - list [ref=e23]:
+              - listitem [ref=e24]:
+                - link "omnygroup" [ref=e25] [cursor=pointer]:
+                  - /url: /omnygroup
+                  - generic [ref=e26]: omnygroup
+                - generic [ref=e28]:
+                  - generic [ref=e29]: /
+                  - img [ref=e30]
+              - listitem [ref=e32]:
+                - link "eslint" [ref=e33] [cursor=pointer]:
+                  - /url: /omnygroup/eslint
+                  - generic [ref=e34]: eslint
+        - generic [ref=e35]:
+          - generic [ref=e41]:
+            - generic "Search or jump to…":
+              - img
+            - button "Type / to search" [ref=e42] [cursor=pointer]:
+              - generic [ref=e44]:
+                - text: Type
+                - generic [ref=e45]: /
+                - text: to search
+          - generic [ref=e47]:
+            - link "Chat with Copilot" [ref=e49] [cursor=pointer]:
+              - /url: /copilot
+              - img
+            - button "Open agents panel" [ref=e52] [cursor=pointer]:
+              - generic [ref=e53]:
+                - generic:
+                  - img
+                - img [ref=e55]
+          - generic [ref=e57]:
+            - button "Create something new" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]:
+                - generic:
+                  - img
+                - img [ref=e62]
+            - link "Your issues" [ref=e64] [cursor=pointer]:
+              - /url: /issues
+              - img
+            - link "Your pull requests" [ref=e65] [cursor=pointer]:
+              - /url: /pulls
+              - img
+            - link "Repositories" [ref=e66] [cursor=pointer]:
+              - /url: /repos
+              - img
+          - link "You have unread notifications" [ref=e335] [cursor=pointer]:
+            - /url: /notifications
+            - img
+          - button "Open user navigation menu" [ref=e73] [cursor=pointer]
+      - navigation "Repository" [ref=e77]:
+        - list [ref=e78]:
+          - listitem [ref=e79]:
+            - link "Code" [ref=e80] [cursor=pointer]:
+              - /url: /omnygroup/eslint
+              - img [ref=e81]
+              - generic [ref=e83]: Code
+          - listitem [ref=e84]:
+            - link "Issues" [ref=e85] [cursor=pointer]:
+              - /url: /omnygroup/eslint/issues
+              - img [ref=e86]
+              - generic [ref=e89]: Issues
+          - listitem [ref=e90]:
+            - link "Pull requests" [ref=e91] [cursor=pointer]:
+              - /url: /omnygroup/eslint/pulls
+              - img [ref=e92]
+              - generic [ref=e94]: Pull requests
+          - listitem [ref=e95]:
+            - link "Actions" [ref=e96] [cursor=pointer]:
+              - /url: /omnygroup/eslint/actions
+              - img [ref=e97]
+              - generic [ref=e99]: Actions
+          - listitem [ref=e100]:
+            - link "Projects" [ref=e101] [cursor=pointer]:
+              - /url: /omnygroup/eslint/projects
+              - img [ref=e102]
+              - generic [ref=e104]: Projects
+          - listitem [ref=e105]:
+            - link "Security" [ref=e106] [cursor=pointer]:
+              - /url: /omnygroup/eslint/security
+              - img [ref=e107]
+              - generic [ref=e109]: Security
+          - listitem [ref=e110]:
+            - link "Insights" [ref=e111] [cursor=pointer]:
+              - /url: /omnygroup/eslint/pulse
+              - img [ref=e112]
+              - generic [ref=e114]: Insights
+          - listitem [ref=e115]:
+            - link "Settings" [ref=e116] [cursor=pointer]:
+              - /url: /omnygroup/eslint/settings
+              - img [ref=e117]
+              - generic [ref=e119]: Settings
+  - main [ref=e123]:
+    - generic [ref=e129]:
+      - generic [ref=e132]:
+        - link "Release" [ref=e135] [cursor=pointer]:
+          - /url: /omnygroup/eslint/actions/workflows/release.yml
+          - img [ref=e136]
+          - generic [ref=e138]: Release
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - img "failed:" [ref=e144]
+            - 'heading "feat: initial release #36" [level=1] [ref=e146]':
+              - generic [ref=e147]: "feat: initial release #36"
+          - generic [ref=e149]:
+            - button "Re-run jobs" [ref=e153] [cursor=pointer]:
+              - generic [ref=e154]:
+                - generic:
+                  - img
+                - generic [ref=e155]: Re-run jobs
+              - generic:
+                - img
+            - button "Workflow run options" [ref=e159] [cursor=pointer]:
+              - img
+      - generic [ref=e160]:
+        - navigation "Workflow run" [ref=e166]:
+          - list [ref=e167]:
+            - listitem [ref=e168]:
+              - link "Summary" [ref=e336] [cursor=pointer]:
+                - /url: /omnygroup/eslint/actions/runs/20919032790
+                - generic:
+                  - img
+                - generic [ref=e338]: Summary
+            - generic [ref=e172]:
+              - heading "All jobs" [level=4] [ref=e173]
+              - button "Filter by job status" [ref=e351] [cursor=pointer]:
+                - img [ref=e352]
+            - listitem [ref=e177]
+            - listitem [ref=e178]:
+              - list [ref=e179]:
+                - listitem [ref=e339]:
+                  - link "release" [ref=e340] [cursor=pointer]:
+                    - /url: /omnygroup/eslint/actions/runs/20919032790/job/60099646356
+                    - generic:
+                      - img
+                    - generic [ref=e342]: release
+            - listitem [ref=e190]
+            - listitem [ref=e191]:
+              - heading "Run details" [level=3] [ref=e193]
+              - list "Run details" [ref=e194]:
+                - listitem [ref=e195]:
+                  - link "Usage" [ref=e343] [cursor=pointer]:
+                    - /url: /omnygroup/eslint/actions/runs/20919032790/usage
+                    - generic:
+                      - img
+                    - generic [ref=e345]: Usage
+                - listitem [ref=e199]:
+                  - link "Workflow file" [ref=e346] [cursor=pointer]:
+                    - /url: /omnygroup/eslint/actions/runs/20919032790/workflow
+                    - generic:
+                      - img
+                    - generic [ref=e348]: Workflow file
+        - region "Check run summary" [ref=e204]:
+          - generic [ref=e205]:
+            - region "Annotations" [ref=e207]:
+              - generic [ref=e211]:
+                - button "Open job annotations" [ref=e213] [cursor=pointer]:
+                  - img [ref=e216]
+                - generic [ref=e218]:
+                  - heading "Annotations" [level=2] [ref=e219]
+                  - generic [ref=e220]: 1 error
+            - generic [ref=e222]:
+              - generic [ref=e223]:
+                - generic [ref=e224]:
+                  - link "release" [ref=e227] [cursor=pointer]:
+                    - /url: "#logs"
+                    - generic [ref=e228]: release
+                  - generic [ref=e229]: failed Jan 12, 2026now in 23s
+                - generic [ref=e230]:
+                  - generic [ref=e231]:
+                    - img [ref=e232]
+                    - textbox "Search" [ref=e234]:
+                      - /placeholder: Search logs
+                  - button "Explain error" [ref=e239] [cursor=pointer]:
+                    - generic [ref=e240]:
+                      - generic:
+                        - img
+                      - generic [ref=e241]: Explain error
+                  - button "Re-run this job" [ref=e243] [cursor=pointer]:
+                    - img
+                  - group [ref=e244]:
+                    - button "Show options" [ref=e245] [cursor=pointer]:
+                      - img "Show options" [ref=e246]
+              - generic [ref=e249]:
+                - group [ref=e251]:
+                  - generic "Set up job 1s" [ref=e252] [cursor=pointer]:
+                    - generic [ref=e253]:
+                      - img [ref=e254]
+                      - img [ref=e256]
+                      - generic [ref=e258]: Set up job
+                      - generic [ref=e259]: 1s
+                - group [ref=e261]:
+                  - generic "Run actions/checkout@v4 0s" [ref=e262] [cursor=pointer]:
+                    - generic [ref=e263]:
+                      - img [ref=e264]
+                      - img [ref=e266]
+                      - generic [ref=e268]: Run actions/checkout@v4
+                      - generic [ref=e269]: 0s
+                - group [ref=e271]:
+                  - generic "Setup Node.js 4s" [ref=e272] [cursor=pointer]:
+                    - generic [ref=e273]:
+                      - img [ref=e274]
+                      - img [ref=e276]
+                      - generic [ref=e278]: Setup Node.js
+                      - generic [ref=e279]: 4s
+                - group [ref=e281]:
+                  - generic "Install dependencies 7s" [ref=e282] [cursor=pointer]:
+                    - generic [ref=e283]:
+                      - img [ref=e284]
+                      - img [ref=e286]
+                      - generic [ref=e288]: Install dependencies
+                      - generic [ref=e289]: 7s
+                - group [ref=e291]:
+                  - generic "Run npm audit 0s" [ref=e292] [cursor=pointer]:
+                    - generic [ref=e293]:
+                      - img [ref=e294]
+                      - img [ref=e296]
+                      - generic [ref=e298]: Run npm audit
+                      - generic [ref=e299]: 0s
+                - group [ref=e301]:
+                  - generic "Run semantic-release 8s" [active] [ref=e302] [cursor=pointer]:
+                    - generic [ref=e303]:
+                      - img [ref=e349]
+                      - img [ref=e308]
+                      - generic [ref=e310]: Run semantic-release
+                      - generic [ref=e311]: 8s
+                - generic [ref=e312]:
+                  - group:
+                    - generic "Post Setup Node.js 0s":
+                      - generic:
+                        - img
+                        - generic: Post Setup Node.js
+                        - generic: 0s
+                - group [ref=e314]:
+                  - generic "Post Run actions/checkout@v4 0s" [ref=e315] [cursor=pointer]:
+                    - generic [ref=e316]:
+                      - img [ref=e317]
+                      - img [ref=e319]
+                      - generic [ref=e321]: Post Run actions/checkout@v4
+                      - generic [ref=e322]: 0s
+                - group [ref=e324]:
+                  - generic "Complete job 0s" [ref=e325] [cursor=pointer]:
+                    - generic [ref=e326]:
+                      - img [ref=e327]
+                      - img [ref=e329]
+                      - generic [ref=e331]: Complete job
+                      - generic [ref=e332]: 0s
+```
