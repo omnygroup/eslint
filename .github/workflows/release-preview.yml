@@ -1,0 +1,66 @@
+name: Release Preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24.x'
+          cache: 'npm'
+          check-latest: true
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run semantic-release (dry-run)
+        id: preview
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npx semantic-release --dry-run --no-ci > release-output.txt 2>&1 || true
+          cat release-output.txt
+
+      - name: Comment PR with release preview
+        uses: actions/github-script@v7
+        if: always()
+        with:
+          script: |
+            const fs = require('fs');
+            const output = fs.readFileSync('release-output.txt', 'utf8');
+            
+            // Извлечь информацию о версии из output
+            const versionMatch = output.match(/The next release version is (\d+\.\d+\.\d+)/);
+            const nextVersion = versionMatch ? versionMatch[1] : 'unknown';
+            
+            const body = `## 🚀 Release Preview
+
+**Next version**: \`${nextVersion}\`
+
+\`\`\`
+${output}
+\`\`\`
+
+> This is a dry-run preview. The actual release will occur when this PR is merged into \`main\`.
+`;
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
