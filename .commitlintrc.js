@@ -21,6 +21,6 @@ export default {
 		'scope-empty': [0],
 		'subject-empty': [2, 'never'],
 		'subject-full-stop': [2, 'never', '.'],
-		'subject-case': [2, 'always', 'lower-case'],
+		'subject-case': [0], // Allow any case in subject to support file names
 	},
 };
