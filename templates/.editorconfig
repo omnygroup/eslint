@@ -1,0 +1,20 @@
+# EditorConfig template for Omny projects
+# Copy this file to your project root as .editorconfig
+# 
+# EditorConfig is supported by most IDEs and ensures consistent
+# coding styles between different editors and IDEs.
+# 
+# This configuration matches the Prettier settings from @omny/eslint/prettier
+# to ensure consistency between editor and formatter.
+#
+# Learn more: https://editorconfig.org
+
+root = true
+
+[*.{js,ts,json,md}]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true

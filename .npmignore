@@ -1,0 +1,25 @@
+# Development files
+create-files.sh
+.git/
+.github/
+.vscode/
+.idea/
+
+# Documentation (keep README.md)
+*.md
+!README.md
+!CHANGELOG.md
+
+# Tests
+tests/
+*.test.js
+*.spec.js
+
+# CI/CD
+.travis.yml
+.gitlab-ci.yml
+.circleci/
+
+# Misc
+.DS_Store
+*.log
