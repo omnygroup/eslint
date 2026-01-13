@@ -20,11 +20,17 @@ export default defineConfig(
 		},
 	},
 
-	// Strict type-checked rules
-	...tseslint.configs.strictTypeChecked,
+	// Strict type-checked rules - only apply to TypeScript files
+	...tseslint.configs.strictTypeChecked.map((config) => ({
+		...config,
+		files: config.files || ['**/*.ts', '**/*.tsx'],
+	})),
 
-	// Stylistic type-checked rules
-	...tseslint.configs.stylisticTypeChecked,
+	// Stylistic type-checked rules - only apply to TypeScript files
+	...tseslint.configs.stylisticTypeChecked.map((config) => ({
+		...config,
+		files: config.files || ['**/*.ts', '**/*.tsx'],
+	})),
 
 	// Custom TypeScript rules
 	{
