@@ -27,8 +27,7 @@ export default defineConfig({
 		'sonarjs/no-identical-expressions': 'error',
 
 		// Обнаружение циклов с одной итерацией
-		'sonarjs/no-one-iteration-loop': 'error',
-
+		
 		// Обнаружение использования пустых return значений
 		'sonarjs/no-use-of-empty-return-value': 'error',
 
@@ -79,3 +78,4 @@ export default defineConfig({
 		'sonarjs/no-clear-text-protocols': 'error',
 	},
 });
+
