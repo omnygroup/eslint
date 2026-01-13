@@ -25,10 +25,7 @@ export default defineConfig({
 
 		// Обнаружение идентичных выражений
 		'sonarjs/no-identical-expressions': 'error',
-
-		// Обнаружение циклов с одной итерацией
-		'sonarjs/no-one-iteration-loop': 'error',
-
+		
 		// Обнаружение использования пустых return значений
 		'sonarjs/no-use-of-empty-return-value': 'error',
 
